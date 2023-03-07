@@ -11,16 +11,12 @@
   <body>
     <div class="Resume">
       <header>
-        <div class="header" align="center">
+        <div class="header">
           <img src="Images/face.png" alt="Portrait picture" />
           <div class="text">
             <h1>Julian Quenet</h1>
             <p>Aspiring Software Developer</p>
           </div>
-        </div>
-      </header>
-      <main>
-        <section>
           <div class="menu" align="center">
             <h2>Directory</h2>
             <a href="#education">Education</a>
@@ -28,8 +24,12 @@
             <a href="#skills">Skills</a>
             <a href="#languages">Languages</a>
             <a href="#courses">Courses</a>
-            <a href="#contactDetails">Contact Details</a>
+            <a href="#contactDetails">Contact</a>
           </div>
+        </div>
+      </header>
+      <main>
+        <section>
           <!--Left and right main content-->
           <article>
             <div class="mainContent">
@@ -57,40 +57,59 @@
                     <p>TEFL 120hr by TEFL Universal</p>
                     <p>Basic first aid</p>
                     <p>Programming Fundamentals</p>
-                    <h2 id="contactDetails">Contact Details</h2>
-                    <div class="CD">
-                      <p>
-                        <img
-                          src="images/linkedin.png"
-                          width="40px"
-                          height="40px"
-                        />
-                        <a
-                          href="https://www.linkedin.com/in/julian-quenet-608586263/"
-                          >Linkedin</a
-                        >
-                      </p>
-                      <u
-                        ><p>
-                          <img
-                            src="images/gmail.png"
-                            width="35px"
-                            height="35px"
-                          />
-                          julianquenet@gmail.com
-                        </p>
-                      </u>
-                      <u
-                        ><p>
-                          <img
-                            src="images/phone.png"
-                            width="35px"
-                            height="35px"
-                          />
-                          +27 81 353 6004
-                        </p></u
-                      >
+                    <h2 id="contactDetails">Contact</h2>
+                    <div class="Icons">
+                      <a href="mailto:julianquenet8@gmail.com"
+                        ><img class="A" src="icons/gmail-logo-24.png"
+                      /></a>
+                      <a
+                        href="https://www.linkedin.com/in/julian-quenet-608586263/"
+                        ><img class="B" src="icons/linkedin-logo-24.png"
+                      /></a>
+                      <a href="https://github.com/JulianQuenet"
+                        ><img class="C" src="icons/github-logo-24.png"
+                      /></a>
+                      <a href="https://t.me/JulianQuenet"
+                        ><img class="D" src="icons/telegram-logo-24.png"
+                      /></a>
                     </div>
+
+                    <form
+                      action="https://formsubmit.co/julianquenet8@gmail.com"
+                      method="POST"
+                    >
+                      <label for="contact">Reason for contact:</label>
+                      <select id="contact" name="Contact" required>
+                        <option value="callBack">Call back</option>
+                        <option value="shortListed">Short listed</option>
+                        <option value="waitingList">On waiting list</option>
+                        <option value="meeting">
+                          Schedule meeting
+                        </option></select
+                      ><span>*</span>
+                      <div>
+                        <label for="email">Email:</label>
+                        <input
+                          type="email"
+                          id="email"
+                          required
+                          placeholder="only valid email address"
+                        /><span>*</span>
+                      </div>
+
+                      <div>
+                        <label for="msg">About:</label>
+                        <textarea
+                          name="user_message"
+                          id="msg"
+                          placeholder="Optional"
+                        ></textarea>
+                      </div>
+
+                      <div>
+                        <input type="submit" />
+                      </div>
+                    </form>
                   </div>
                 </aside>
               </div>
@@ -131,8 +150,8 @@
                     Rugby 2nd and 1st team as well as Squash 2nd team.
                   </p>
                 </div>
-
-                <a href="#"><img class="top" src="images/arrowUp.png" /></a>
+                 
+                <a href="#"><img class="top" src="images/arrow.png" /></a>
 
                 <div class="experience">
                   <h2 id="experience">Experience</h2>
