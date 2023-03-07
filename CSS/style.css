@@ -46,7 +46,7 @@ a{
 
  .menu{
     position:relative;
-    margin-right: 600px;
+    margin-right: 620px;
     padding-top: 130px;
     
 
@@ -54,6 +54,7 @@ a{
 
  .menu a{
    margin-left:2px;
+   padding-right: 5px;
  }
 
  .mainContent{
