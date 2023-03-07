@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    font-weight: normal;
+    scroll-behavior: smooth;
+ }
+
+ h1,h2,h3,p{
+   margin:10px;
+   color: white;
+}
+
+a{
+   color: rgb(57, 185, 101);
+}
+
+
+ .header img{
+    width: 160px;
+    height: 140px;
+    border-radius: 100%;
+    position:absolute;
+    right: 95px;
+    top: 20px;
+    border: 5px  solid white;
+ }
+
+ .Resume{
+    width: 80%;
+    margin: 0px auto;
+ }
+
+ .header{
+    position:relative;
+    height: 200px;
+    background-color: #465c5a;
+ }
+
+ .header .text{
+    position:absolute;
+    top: 55px;
+    right: 255px;
+ }
+
+ .menu{
+    position:absolute;
+    top:125px;
+    left:145px;
+ }
+
+ .menu a{
+   margin-left:2px;
+ }
+
+ .mainContent{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .leftArea{
+    width: 30%;
+    background-color: rgb(80, 97, 95);
+ }
+
+ .rightArea{
+    width: 70%;
+    background-color: rgb(83, 108, 105);
+ }
+
+ .education{
+   margin-top: 35px;
+   margin-left: 120px;
+   margin-bottom: 100px;
+
+ }
+
+.education p{
+   font-size: small;
+}
+
+ .experience{
+   margin-top: 15px;
+   margin-left: 120px;
+   margin-bottom: 100px;
+
+ }
+ 
+ .experience ul{
+   font-size: small;
+ }
+
+ ul{
+   margin-left: 30px;
+   color: white;
+ }
+
+ .skills{
+   margin-top: 35px;
+   margin-left: 20px;
+ }
+
+ #languages, #courses, #contactDetails{
+   margin-top: 59px;
+ }
+
+ .leftArea p{
+   font-size: small;
+ }
+
+.top{
+   width: 30px;
+   height: 30px;
+   position: sticky;
+   top: 500px;
+}
+
+.CD p{
+    color: rgb(255, 255, 255);
+}
+
+.CD a{
+   color: white;
+}
+
+.CD u{
+   color: white;
+}
+
+h4{
+   margin-left: 10px;
+   color: rgb(142, 180, 180);
+}
